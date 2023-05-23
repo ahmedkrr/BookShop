@@ -17,6 +17,7 @@ namespace BookShop.Domain
         public BookStatus BookStatus { get; set; }
         public Author Author { get; set; }
         public int AuthorId { get; private set; }
+        public ICollection<Order> Order { get; set; }
 
         public Book() { }
        

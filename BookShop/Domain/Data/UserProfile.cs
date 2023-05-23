@@ -16,6 +16,8 @@ namespace BookShop.Domain
         public UserRole Role { get; private set; }
         public DateTime CreatDate { get; private set; }
         public ICollection<ResetPassword> ResetPasswords { get; set; }
+        public ICollection<Orders> Orders { get; set; }
+        
 
 
 

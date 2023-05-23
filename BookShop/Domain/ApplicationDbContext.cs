@@ -23,6 +23,8 @@ namespace BookShop.Domain
             modelBuilder.ApplyConfiguration(new AuthorConfig());
             modelBuilder.ApplyConfiguration(new UserProfileConfig());
             modelBuilder.ApplyConfiguration(new ResetPasswordConfig());
+            modelBuilder.ApplyConfiguration(new OrdersConfig());
+            modelBuilder.ApplyConfiguration(new OrderConfig());
 
         }
     }

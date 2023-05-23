@@ -47,7 +47,7 @@ namespace BookShop.Resourses.Account
                 _config["Jwt:Issuer"],
                 _config["Jwt:Audience"],
                 claims,
-                expires: DateTime.Now.AddDays(1),
+                expires: DateTime.Now.AddDays(2),
                 signingCredentials: credentials) ;
 
             var x = new JwtSecurityTokenHandler().WriteToken(token);
